@@ -2,7 +2,7 @@
 *Scout* is an open-source custom quadcopter flight controller firmware that I developed from absolute scratch. The *Scout Flight Controller* is written in MicroPython and runs on a $4 Raspberry Pi Pico.
 -----
 
-## Important Update: MAVLink Integration for QGroundControl
+:red_circle:**Important Update: MAVLink Integration for QGroundControl**:red_circle:
 
 **This version of the Scout Flight Controller has been significantly modified from the original design described in the articles below.** The core changes involve replacing the IBUS RC communication with the **MAVLink protocol over Wi-Fi (UDP)**, enabling control via standard Ground Control Station (GCS) software like **QGroundControl**.
 
@@ -26,6 +26,7 @@
 **Please refer to the comments within the updated `main.py` file for specific MAVLink implementation details and configuration settings.** The original IBUS-based code might still be accessible in the project's history if needed.
 
 John Seargeant
+
 ---
 
 *(Original README content follows)*
